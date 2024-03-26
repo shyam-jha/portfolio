@@ -1,0 +1,137 @@
+.gpt3__blog-container_article {
+    width: 100%;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    border: 1px solid var(--color-subtext);
+}
+
+.gpt3__blog-container_article-image {
+    position: relative; /* Ensure the overlay is positioned relative to this container */
+    width: 100%;
+    height: 50%;
+    background: var(--color-bg);
+    overflow: hidden; /* Hide overflow to prevent icons from overflowing */
+}
+
+.gpt3__blog-container_article-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Initially transparent */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    align-items: center; /* Center icons vertically */
+    opacity: 0; /* Initially invisible */
+}
+
+.gpt3__blog-container_article:hover .image-overlay {
+    background-color: rgba(0, 0, 0, 0.781); /* Semi-transparent black on hover */
+    opacity: 1; /* Make overlay visible on hover */
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.icon {
+    color: white; /* Adjust icon color */
+}
+
+/* Rest of your CSS... */
+
+/* Rest of your CSS... */
+
+
+.gpt3__blog-container_article .icon-container p {
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+
+.gpt3__blog-container_article-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    height: 30%;
+}
+
+.gpt3__blog-container_article-content p {
+    font-family: var(--font-family);
+    font-size: 11.65px;
+    font-weight: 300;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: small;
+}
+
+.gpt3__blog-container_article-content h3 {
+    font-family: var(--font-family);
+    font-size: medium;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.gpt3__blog-container_article-content p:last-child {
+    cursor: pointer;
+}
+
+.tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tech .head p{
+    color: var(--color-subtext);
+    font-size: medium;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+    .gpt3__blog-container_article-content h3 {
+        font-size: 18px;
+        line-height: 25p;
+    }
+
+    .gpt3__blog-container_article-image {
+        height: 40%;
+    }
+
+    .tech{
+        margin-top: 2rem;
+    }
+    .icon-container {
+        gap: 0.5rem;
+    }
+}

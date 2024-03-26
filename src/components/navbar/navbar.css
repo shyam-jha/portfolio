@@ -1,0 +1,177 @@
+.gpt3__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+
+
+.logo p{
+    color: var(--color-subtext);
+    font-weight: 500;
+    font-size: medium;
+}
+
+.li{
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.li p{
+    font-size: small;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+
+.li:hover{
+    color: var(--color-subtext);
+}
+
+.icons{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.icons #github,#linkedin,#instagram:hover{
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.gpt3__navbar-links_logo {
+    margin-right: 2rem;
+    margin-top: 2.5px;
+}
+
+.gpt3__navbar-links_logo img{
+    width: 62px;
+    height: 16px;
+}
+
+.gpt3__navbar-links_container {
+    display: flex;
+}
+
+.gpt3__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.gpt3__navbar-links_container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+
+.gpt3__navbar-sign button,
+.gpt3__navbar-menu_container button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gpt3__navbar-menu{
+    margin-left: 1rem;
+    display: none;
+}
+
+.gpt3__navbar-menu svg{
+    cursor: pointer;
+}
+
+.gpt3__navbar-menu_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: var(--color-footer);
+    padding: 0.1rem;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.gpt3_navbar-menu_container-links-sign{
+    display: flex;
+    gap: 2rem;
+    padding: 0.5rem 1.5rem ;
+    border-radius:20px ;
+    border: 2px solid white;
+    
+}
+
+.gpt3__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+
+@media screen and (max-width: 1050px) {
+    .gpt3__navbar-links_container {
+        display: none;
+    }
+
+    .gpt3__navbar-menu {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+
+    .gpt3__navbar-menu {
+        display: block;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .icons{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__navbar {
+        padding: 2rem;
+    }
+
+    .gpt3__navbar-menu_container {
+        top: 60px;
+    }
+}

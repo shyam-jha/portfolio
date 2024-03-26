@@ -1,0 +1,7 @@
+.gpt3__footer-copyright{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-footer);
+    color: var(--color-text);
+    padding: 1rem;
+}
