@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05e5f84b.css",
+    "main.js": "/static/js/main.8548dd38.js",
+    "static/media/possibility.png": "/static/media/possibility.525f13b61a2157d44de0.png",
+    "static/media/cinematic.jpg": "/static/media/cinematic.8dae2f4dd011a9ef8519.jpg",
+    "static/media/music.jpg": "/static/media/music.7b17cb6fad33931a0cb9.jpg",
+    "static/media/resume.pdf": "/static/media/resume.c84c25638a79cdc05246.pdf",
+    "static/media/port.png": "/static/media/port.97f1e9d5876ae6230adf.png",
+    "static/media/f4.jpg": "/static/media/f4.d93e2be187e3d6a23c80.jpg",
+    "static/media/me.png": "/static/media/me.16a55dfb8ad4f09ace87.png",
+    "static/media/f3.jpg": "/static/media/f3.96ea419afdffa93eed05.jpg",
+    "static/media/f1.jpg": "/static/media/f1.e55ac338e6f88d92d9c9.jpg",
+    "static/media/f2.jpg": "/static/media/f2.d03e0e49cf309c4a250f.jpg",
+    "static/media/chess.jpg": "/static/media/chess.c1588b7cb09ebbb7e272.jpg",
+    "index.html": "/index.html",
+    "main.05e5f84b.css.map": "/static/css/main.05e5f84b.css.map",
+    "main.8548dd38.js.map": "/static/js/main.8548dd38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05e5f84b.css",
+    "static/js/main.8548dd38.js"
+  ]
+}
