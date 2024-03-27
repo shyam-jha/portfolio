@@ -34,7 +34,7 @@ const articlesData = [
   },
   {
     imgUrl: blog05,
-    date: "Explore Cinematic Universes: Watching links and chatrooms ",
+    date: "Cinematic Universes: Watching links & chatrooms",
     text: "A dynamic platform powered by Django and Bootstrap, offering seamless access to direct viewing links and interactive chat rooms. Navigate effortlessly through a curated collection of cinematic masterpieces while engaging with fellow enthusiasts in real-time discussions.",
     icons: [< DiDjango color="#fff" size={25} />, <FaBootstrap color="#fff" size={25} />, <FaCss3Alt color="#fff" size={25} />]
   },
