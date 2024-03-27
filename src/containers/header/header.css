@@ -102,15 +102,18 @@
     }
 
 
-    .gpt3__header-image {
-        display: none;
-    }
-
     .But button {
         font-size: 10px;
         font-weight: bold;
         text-transform: uppercase;
         cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .gpt3__header-image {
+        display: none;
     }
 }
 
