@@ -23,13 +23,13 @@ const articlesData = [
   {
     imgUrl: blog03,
     date: "Music Player Using Html css and javascript",
-    text: "Introducing HarmonyTune: a full-fledged music player crafted using HTML, CSS, and JavaScript. Dive into a seamless musical journey with its intuitive user interface and dynamic functionality. SneekiMusic offers a rich listening experience, smooth playback controls. Elevate your music experience.",
+    text: "Introducing HarmonyTune: a full-fledged music player crafted using HTML, CSS, and JavaScript. Dive into a seamless musical journey with its intuitive user interface and dynamic functionality. SneekiMusic offers a rich listening experience. ",
     icons: [<RiHtml5Fill color="#fff" size={25} />, <FaCss3Alt color="#fff" size={25} />, <IoLogoJavascript color="#fff" size={25} />]
   },
   {
     imgUrl: blog04,
     date: "Personalised Portfolio In react",
-    text: "Presenting my personal portfolio, meticulously designed and developed using React. Dive into a showcase of my skills, projects, and achievements, crafted with passion and precision. With a sleek and modern interface, my portfolio offers a seamless browsing experience, inviting visitors to explore my journey and capabilities.",
+    text: "Presenting my personal portfolio, meticulously designed and developed using React. Dive into a showcase of my skills, projects, and achievements, crafted with passion and precision. With a sleek and modern interface, it offers a seamless browsing experience.",
     icons: [<RiReactjsFill color="#fff" size={25} />, <FaCss3Alt color="#fff" size={25} />, < PiFileJsxDuotone color = "#fff" size = { 25 } />]
   },
   {

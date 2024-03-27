@@ -10,22 +10,22 @@ const featuresData = [
   {
     title: 'ENACTUS DDUC',
     sub: 'Director of Research and Developnment',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
+    text: 'I led initiatives aimed at fostering sustainable business development. Through innovative research and strategic planning, our team implemented projects that aligned with Enactus mission to drive positive social impact while promoting environmentally conscious and economically viable business practices',
   },
   {
     title: 'ACM DDUC',
     sub: 'Core Team',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
+    text: 'I am dedicated to advancing technology. With a passion for computer science our team collaborates to oraganize events, workshops, and initiatives that empowers individual in tech community',
   },
   {
     title: 'Data Analytics Club',
     sub: 'Executive Team',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    text: 'Through collaboration with industry partners and hands-on projects, we empower members to sharpen their analytics and make meaningfull contribution, skill developnement, and techology advancement',
   },
   {
     title: 'Sanganika',
     sub: 'Member',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
+    text: 'With a passion for Computer Science and commitment to excellence, I actively contribute to our societ initiatives.',
   },
 ];
 
